@@ -1,18 +1,29 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Platform Cache: Commission Calculator Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This project demonstrates how Salesforce Platform Cache can optimize complex backend Apex logic, using a real-world commission calculation scenario.
 
-## How Do You Plan to Deploy Your Changes?
+## Project Overview
+- Multi-object commission calculation logic
+- Uncached vs Cached performance comparison
+- Focus on real execution time gains using Platform Session Cache
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Objects Involved
+- Sales_Rep__c
+- Team__c
+- Commission_Rules__c
+- Promotion__c
+- Exchange_Rate__c
+- Commission_Statement__c
+- Commission_Detail__c
 
-## Configure Your Salesforce DX Project
+## Features
+- Tiered commission structures
+- Promotions and bonuses
+- Currency exchange rate considerations
+- Team performance bonuses
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Scripts
+- Refer the anonmyous scripts in the folder
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## License
+MIT License - See LICENSE file for details.
